@@ -18,3 +18,6 @@ shell:
 
 serve:
 	python manage.py runserver
+
+collectstatic:
+	python manage.py collectstatic

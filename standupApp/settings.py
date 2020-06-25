@@ -134,4 +134,6 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR2, 'static'),
 )
 
+
+
 django_heroku.settings(locals())
