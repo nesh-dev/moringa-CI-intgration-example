@@ -21,3 +21,6 @@ serve:
 
 collectstatic:
 	python manage.py collectstatic
+
+test: 
+	python manage.py test

@@ -1,1 +1,1 @@
-web: gunicorn standupApp.wsgi --log-file -
+web: gunicorn standupApp.wsgi --log-file -s
