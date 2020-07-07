@@ -40,8 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'user',
-    'blog'
+    'app.user',
+    'app.blog'
 ]
 
 MIDDLEWARE = [
@@ -133,7 +133,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR2, 'static'),
 )
-
-
 
 django_heroku.settings(locals())

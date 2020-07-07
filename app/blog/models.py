@@ -1,5 +1,5 @@
 from django.db import models
-from user.models import Author
+from app.user.models import Author
 
 # Create your models here.
 
@@ -11,6 +11,9 @@ class Tag(models.Model):
 
     def __str__(self):
         return self.name
+
+    class Meta: 
+        app_label = 'blog'
         
 class Blog(models.Model):
     title = models.CharField(max_length=235)
